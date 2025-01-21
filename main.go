@@ -56,7 +56,7 @@ func loginHandler(c *fiber.Ctx) error {
 		})
 	}
 
-	// Here you should verify the username and password
+	// Here you should verify the username and passwor
 	// This is a placeholder check - replace with actual authentication logic
 	if login.Phone == "1" && login.Password == "1" {
 		// Create the JWT claims, which includes the username and expiry time
